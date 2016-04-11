@@ -9,7 +9,7 @@ npm install stremio-addons-box
 stremio-addons-box '[ "stremio-vodo", "addon-helloworld" ]' # array of strings passed to npm install; alternatively path to json
 
 # open browser at http://localhost:8080/stremio-vodo/stremioget/stremio/v1 for vodo add-on
-# open browser at http://localhost:8080/stremio-filmon/stremioget/stremio/v1 for filmon
+# open browser at http://localhost:8080/addon-helloworld/stremioget/stremio/v1 for hello world add-on
 ```
 
 
