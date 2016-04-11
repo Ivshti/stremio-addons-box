@@ -1,6 +1,9 @@
 # stremio-addons-box
 HTTP server that hosts any stremio add-ons you list
 
+Helps you faciliate hosting of more than one stremio addon, as you just need to deploy this one module.
+
+This will also support listing similar to [addons.strem.io](http://addons.strem.io), so you can build your own add-on stores.
 
 ## Usage
 
