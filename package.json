@@ -1,0 +1,34 @@
+{
+  "name": "stremio-addons-box",
+  "version": "1.0.0",
+  "description": "HTTP server that hosts any stremio add-ons you list ",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.13.4",
+    "npm": "^3.8.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "tape test/*",
+    "start": "node cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ivshti/stremio-addons-box"
+  },
+  "bin": {
+    "stremio-addons-box": "cli.js"
+  },
+  "keywords": [
+    "stremio-addons",
+    "addons",
+    "stremio",
+    "http"
+  ],
+  "author": "Stremio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ivshti/stremio-addons-box/issues"
+  },
+  "homepage": "https://github.com/Ivshti/stremio-addons-box"
+}
