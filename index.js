@@ -18,8 +18,8 @@ module.exports = function addonBox(addons, cb) {
                     if (! addon) throw new Error('unable to require '+i[0]+': returns falsy value')
                     if (! addon.middleware) throw new Error('unable to require '+i[0]+': does not return middleware')
 
-                    router.all(new RegExp('/addons/'+addon.manifest.id+'/.*'), addon.middleware)
-                    router.all(new RegExp('/addons/'+name+'/.*'), addon.middleware)
+                    router.all(new RegExp('\/addons\/'+addon.manifest.id+'\/.*'), addon.middleware)
+                    router.all(new RegExp('\/addons\/'+name+'\/.*'), addon.middleware)
 
                     ids.push(addon.manifest.id)
                 })
