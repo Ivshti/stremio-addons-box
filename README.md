@@ -11,6 +11,9 @@ This will also support listing similar to [addons.strem.io](http://addons.strem.
 npm install stremio-addons-box
 stremio-addons-box '[ "stremio-vodo", "addon-helloworld" ]' # array of strings passed to npm install; alternatively path to json
 
+# alternatively 
+ADDONS='[ "stremio-vodo", "addon-helloworld" ]' stremio-addons-box
+
 # open browser at http://localhost:8080/stremio-vodo/stremioget/stremio/v1 for vodo add-on
 # open browser at http://localhost:8080/addon-helloworld/stremioget/stremio/v1 for hello world add-on
 ```
