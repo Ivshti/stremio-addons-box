@@ -4,8 +4,8 @@
   "description": "HTTP server that hosts any stremio add-ons you list ",
   "main": "index.js",
   "dependencies": {
-    "express": "^4.13.4",
-    "npm": "3.8.x"
+    "npm": "3.8.x",
+    "router": "^1.1.4"
   },
   "devDependencies": {},
   "scripts": {
