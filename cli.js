@@ -22,7 +22,7 @@ addonsBox(addons, function(err, router, ids) {
 
         var addr = ip.address()
         ids.forEach(function(id) {
-            console.log('http://'+addr+':'+port+'/addons/'+id+'/stremioget/stremio/v1')
+            console.log('http://'+addr+':'+port+'/addons/'+id)
         })
     })
 })
